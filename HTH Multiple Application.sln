@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HTH Media Player", "HTH Media Player\HTH Media Player.shproj", "{826C3453-B2DB-4B04-8B6B-A57E4783386E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTH Media Player", "HTH Media Player\HTH Media Player.csproj", "{C2DAC1D1-67F0-447D-A965-90AF8776C78E}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		HTH Media Player\HTH Media Player.projitems*{826c3453-b2db-4b04-8b6b-a57e4783386e}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DAC1D1-67F0-447D-A965-90AF8776C78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DAC1D1-67F0-447D-A965-90AF8776C78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DAC1D1-67F0-447D-A965-90AF8776C78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DAC1D1-67F0-447D-A965-90AF8776C78E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
